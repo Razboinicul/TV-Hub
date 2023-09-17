@@ -10,7 +10,11 @@ config_version=5
 
 [application]
 
-config/name="Tutorial - Mulitplayer Nodes"
+config/name="TV Hub"
 run/main_scene="res://main.tscn"
-config/features=PackedStringArray("4.0", "Vulkan Clustered")
+config/features=PackedStringArray("4.1")
 config/icon="res://icon.png"
+
+[dotnet]
+
+project/assembly_name="Tutorial - Mulitplayer Nodes"

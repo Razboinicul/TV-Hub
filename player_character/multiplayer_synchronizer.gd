@@ -15,3 +15,10 @@ extends MultiplayerSynchronizer
 			position = val
 		else:
 			get_parent().position = val
+
+@export var visible:bool = true:
+	set(val):
+		if is_multiplayer_authority():
+			visible = val
+		else:
+			get_parent().visible = val

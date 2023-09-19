@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1694971811
+::res://::1695058651
 icon.png::CompressedTexture2D::636154046616424933::1664150106::1694971811::1::::<><>::
 main.gd::GDScript::-1::1664150106::0::1::::<>Node3D<>::
-main.tscn::PackedScene::5109218852744709000::1664150106::0::1::::<><>::res://main.gd
+main.tscn::PackedScene::5109218852744709000::1694971838::0::1::::<><>::res://main.gd
 README.md::TextFile::-1::1694971752::0::1::::<><>::
-::res://player_character/::1694971694
+::res://player_character/::1694971829
 face.png::CompressedTexture2D::3487891960034368295::1664150106::1694971811::1::::<><>::
 multiplayer_synchronizer.gd::GDScript::-1::1664150106::0::1::::<>MultiplayerSynchronizer<>::
-player_character.gd::GDScript::-1::1664150106::0::1::::<>MeshInstance3D<>::
-player_character.tscn::PackedScene::6027670297687630029::1664150106::0::1::::<><>::res://player_character/player_character.gd<>uid://bpxtcocmlphv0::::res://player_character/face.png<>res://player_character/multiplayer_synchronizer.gd
+player_character.gd::GDScript::-1::1694971829::0::1::::<>MeshInstance3D<>::
+player_character.tscn::PackedScene::6027670297687630029::1664150106::0::1::::<><>::res://player_character/player_character.gd<>uid://bpxtcocmlphv0

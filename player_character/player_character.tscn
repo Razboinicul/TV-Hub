@@ -37,7 +37,6 @@ shape = SubResource("CapsuleShape3D_4m00y")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.959378, 0.282124, 0, -0.282124, 0.959378, 0, 1.68083, 3.94139)
-fov = 90.0
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
 root_path = NodePath(".")

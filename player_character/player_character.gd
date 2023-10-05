@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 var speed = 5
 var jump_height = 250
-var fall_speed = 10
+var fall_speed = ProjectSettings.get_setting("physics/3d/default_gravity")
 var mouse_sens = 0.3
 var camera_anglev = 0
 

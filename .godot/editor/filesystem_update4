@@ -1,4 +1,3 @@
 res://main.tscn
-res://player_character/player_character.gd
 res://player_character/player_character.tscn
-res://player_character/multiplayer_synchronizer.gd
+res://player_character/player_character.gd

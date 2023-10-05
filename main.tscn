@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://ce17c81jacq53"]
+[gd_scene load_steps=6 format=3 uid="uid://ce17c81jacq53"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_whca7"]
+[ext_resource type="AudioStream" uid="uid://bphu3ngnddb1x" path="res://tracks/Track1.mp3" id="2_34ohc"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0ntqk"]
 albedo_color = Color(0.435294, 0.776471, 0.333333, 1)
@@ -13,6 +14,11 @@ size = Vector3(32, 0.5, 32)
 
 [node name="Main" type="Node3D"]
 script = ExtResource("1_whca7")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_34ohc")
+volume_db = -15.0
+autoplay = true
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0)
